@@ -16,10 +16,4 @@ public class Main {
         frame.setVisible(true);
         desplegarLogin();
     }
-    
-    private static void obtenerDayos(){
-    
-    }
-
-
 }
