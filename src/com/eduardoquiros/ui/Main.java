@@ -3,6 +3,7 @@ package com.eduardoquiros.ui;
 import javax.swing.*;
 
 public class Main {
+    static Controlador gestor = new Controlador();
 
     public static void main(String[] args) {
         desplegarLogin();
