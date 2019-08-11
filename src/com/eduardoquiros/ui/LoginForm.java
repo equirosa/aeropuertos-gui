@@ -25,4 +25,11 @@ public class LoginForm {
 	public Container getLoginPanel() {
 		return loginPanel;
 	}
+	
+	public String[] ejecutarLogin(){ //retorna la informacion de login ingresada por el usuario.
+		String[] info = new String[2];
+		info[0] = textField1.getText();
+		info[1] = passwordField1.getText();
+		return info;
+	}
 }
