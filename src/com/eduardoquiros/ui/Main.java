@@ -9,7 +9,7 @@ public class Main {
         desplegarLogin();
     }
 
-    private static void desplegarLogin() {
+    private static void desplegarLogin() { //Despliega la ventana de login.
         JFrame frame = new JFrame("Login");
         frame.setContentPane(new LoginForm().getLoginPanel());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
