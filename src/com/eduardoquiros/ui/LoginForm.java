@@ -1,6 +1,7 @@
 package com.eduardoquiros.ui;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -21,7 +22,7 @@ public class LoginForm {
 		});
 	}
 	
-	public JPanel getLoginPanel(){
+	public Container getLoginPanel() {
 		return loginPanel;
 	}
 }
