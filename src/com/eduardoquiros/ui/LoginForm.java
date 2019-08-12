@@ -17,7 +17,7 @@ public class LoginForm {
 		loginButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				labelPrueba.setText("Usuario="+textField1.getText()+" Contrasenna= "+passwordField1.getText());
+				Main.ejecutarLogin();
 			}
 		});
 	}
