@@ -1,14 +1,22 @@
 package com.eduardoquiros.ui;
 
+import com.eduardoquiros.tl.ControladorLogin;
+
 import javax.swing.*;
 import java.time.LocalDate;
 
 public class Main {
-//    static Controlador gestor = new Controlador();
+    static ControladorLogin gestorLogin = new ControladorLogin();
     static JFrame panelLogin = new JFrame("Login");
     
     public static void main(String[] args) {
-        desplegarLogin();
+        if(gestorLogin.isNotLoggedIn()) {
+            desplegarLogin();
+        }
+        int opcion = -1;
+        while(opcion==0){
+        
+        }
     }
 
     private static void desplegarLogin() { //Despliega la ventana de login.
@@ -18,7 +26,7 @@ public class Main {
         panelLogin.setVisible(true);
     }
     
-    public static void ejecutarLogin() {
-//       panelLogin.ejecutarLogin();
+    public static void ejecutarLogin(String[] loginData) {
+//        gestorLogin.ejecutarLogin(loginData);
     }
 }

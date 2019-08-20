@@ -17,7 +17,7 @@ public class LoginForm {
 		loginButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				Main.ejecutarLogin();
+				Main.ejecutarLogin(ejecutarLogin());
 			}
 		});
 	}
