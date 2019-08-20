@@ -50,4 +50,8 @@ public class Main {
             out.println(data);
         }
     }
+    
+    public static void iniciarRegistroAdmin(){
+    
+    }
 }
