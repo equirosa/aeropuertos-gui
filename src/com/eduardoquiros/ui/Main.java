@@ -5,6 +5,8 @@ import com.eduardoquiros.tl.ControladorLogin;
 import javax.swing.*;
 import java.time.LocalDate;
 
+import static java.lang.System.out;
+
 public class Main {
     static ControladorLogin gestorLogin = new ControladorLogin();
     static JFrame panelLogin = new JFrame("Login");
@@ -28,5 +30,8 @@ public class Main {
     
     public static void ejecutarLogin(String[] loginData) {
 //        gestorLogin.ejecutarLogin(loginData);
+        for(String data : loginData){
+            out.println(data);
+        }
     }
 }
